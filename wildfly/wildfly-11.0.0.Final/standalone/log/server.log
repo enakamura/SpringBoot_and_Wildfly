@@ -1,0 +1,224 @@
+2018-03-23 15:38:25,992 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-23 15:38:26,727 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-23 15:38:26,858 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-23 15:38:26,859 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_51/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_51/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/i386:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_51-b16
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_51
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final
+	jboss.host.name = engdbnote378
+	jboss.modules.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = engdbnote378
+	jboss.qualified.host.name = engdbnote378
+	jboss.server.base.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone
+	jboss.server.config.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/log
+	jboss.server.name = engdbnote378
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/configuration/logging.properties
+	module.path = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/modules
+	org.jboss.boot.log.file = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = i386
+	os.name = Linux
+	os.version = 4.13.16-100.fc25.x86_64
+	path.separator = :
+	sun.arch.data.model = 32
+	sun.boot.class.path = /usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_51/jre/lib/i386
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/jboss-modules.jar -mp /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/nakamura/Program/wildfly/wildfly-11.0.0.Final -Djboss.server.base.dir=/home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone -b 0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/bin
+	user.home = /home/nakamura
+	user.language = en
+	user.name = nakamura
+	user.timezone = America/Sao_Paulo
+2018-03-23 15:38:26,860 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/configuration/logging.properties 
+2018-03-23 15:38:29,607 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-23 15:38:29,634 INFO  [org.wildfly.security] (ServerService Thread Pool -- 16) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-23 15:38:29,693 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-23 15:38:29,914 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0001: Content added at location /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/e5/ed8c8cc4f13e571dde33b07080187a002916e1/content
+2018-03-23 15:38:29,951 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-23 15:38:29,986 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.5.4.Final
+2018-03-23 15:38:30,000 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-23 15:38:30,075 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.5.Final
+2018-03-23 15:38:30,109 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-23 15:38:30,122 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-03-23 15:38:30,129 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-23 15:38:30,171 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-23 15:38:30,184 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-23 15:38:30,218 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-23 15:38:30,268 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-23 15:38:30,280 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-23 15:38:30,283 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-23 15:38:30,308 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-03-23 15:38:30,338 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-23 15:38:30,423 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-03-23 15:38:30,442 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-23 15:38:30,435 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-23 15:38:30,445 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2018-03-23 15:38:30,888 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-23 15:38:30,901 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-23 15:38:30,944 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-03-23 15:38:30,947 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path '/home/nakamura/Program/wildfly/wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-23 15:38:30,959 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-03-23 15:38:31,095 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2018-03-23 15:38:31,179 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-23 15:38:31,324 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-23 15:38:31,334 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-23 15:38:31,371 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-23 15:38:31,410 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/deployments
+2018-03-23 15:38:31,422 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "notification-1.0.0.war" (runtime-name: "notification-1.0.0.war")
+2018-03-23 15:38:31,433 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2018-03-23 15:38:31,908 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-03-23 15:38:33,666 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-03-23 15:38:33,676 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-03-23 15:38:33,750 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-03-23 15:38:34,201 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-23 15:38:34,354 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 70) 2 Spring WebApplicationInitializers detected on classpath
+2018-03-23 15:38:34,876 INFO  [stdout] (ServerService Thread Pool -- 70) 
+2018-03-23 15:38:34,877 INFO  [stdout] (ServerService Thread Pool -- 70)   .   ____          _            __ _ _
+2018-03-23 15:38:34,879 INFO  [stdout] (ServerService Thread Pool -- 70)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2018-03-23 15:38:34,879 INFO  [stdout] (ServerService Thread Pool -- 70) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2018-03-23 15:38:34,880 INFO  [stdout] (ServerService Thread Pool -- 70)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2018-03-23 15:38:34,880 INFO  [stdout] (ServerService Thread Pool -- 70)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2018-03-23 15:38:34,881 INFO  [stdout] (ServerService Thread Pool -- 70)  =========|_|==============|___/=/_/_/_/
+2018-03-23 15:38:34,886 INFO  [stdout] (ServerService Thread Pool -- 70) [32m :: Spring Boot :: [39m     [2m (v1.5.10.RELEASE)[0;39m
+2018-03-23 15:38:34,888 INFO  [stdout] (ServerService Thread Pool -- 70) 
+2018-03-23 15:38:35,009 INFO  [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) Starting NotificationApplication on ENGDBNOTE378 with PID 30011 (started by nakamura in /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/bin)
+2018-03-23 15:38:35,010 DEBUG [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-23 15:38:35,011 INFO  [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) No active profile set, falling back to default profiles: default
+2018-03-23 15:38:35,074 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 70) Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a726f7: startup date [Fri Mar 23 15:38:35 BRT 2018]; root of context hierarchy
+2018-03-23 15:38:35,797 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 70) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-23 15:38:35,860 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 70) Initializing Spring embedded WebApplicationContext
+2018-03-23 15:38:35,860 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 70) Root WebApplicationContext: initialization completed in 787 ms
+2018-03-23 15:38:36,536 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 70) Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-23 15:38:36,541 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 70) Mapping filter: 'errorPageFilter' to: [/*]
+2018-03-23 15:38:36,542 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 70) Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-23 15:38:36,542 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 70) Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-23 15:38:36,543 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 70) Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-23 15:38:36,543 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 70) Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-23 15:38:37,070 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 70) Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a726f7: startup date [Fri Mar 23 15:38:35 BRT 2018]; root of context hierarchy
+2018-03-23 15:38:37,161 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 70) Mapped "{[/notificationMessage]}" onto public com.notification.pojo.Response com.notification.core.NotificationController.notificationMessage(java.lang.String,java.lang.String,java.lang.String)
+2018-03-23 15:38:37,162 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 70) Mapped "{[/]}" onto public java.lang.String com.notification.core.NotificationController.index()
+2018-03-23 15:38:37,168 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 70) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-23 15:38:37,171 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 70) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-23 15:38:37,228 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 70) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-23 15:38:37,229 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 70) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-23 15:38:37,295 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 70) Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-23 15:38:37,501 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 70) Registering beans for JMX exposure on startup
+2018-03-23 15:38:37,522 INFO  [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) Started NotificationApplication in 3.038 seconds (JVM running for 12.262)
+2018-03-23 15:38:37,589 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 70) Initializing Mojarra 2.2.13.SP4  for context '/sendNotification'
+2018-03-23 15:38:39,251 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: '/sendNotification' for server 'default-server'
+2018-03-23 15:38:39,269 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "notification-1.0.0.war" (runtime-name : "notification-1.0.0.war")
+2018-03-23 15:38:39,355 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-23 15:38:39,357 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-23 15:38:39,358 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-23 15:38:39,358 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 14027ms - Started 504 of 732 services (353 services are lazy, passive or on-demand)
+2018-03-23 15:38:56,829 INFO  [io.undertow.servlet] (default task-1) Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-23 15:38:56,830 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-23 15:38:56,844 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-03-23 15:39:07,679 TRACE [com.notification.core.SendMessage] (default task-2) BEGIN
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) Input data ...
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) serverKey=AAAASgXNggY:APA91bFmiVnIjuWSvNubsa7_kIzIeOchj2cRkMqbbNZNB11we4XE6Jgy-byISVAByoSvovuYQODOFNlpucppSXNxot6-DcbViRvK4BLvawdrKSpC3l_vQZPlPxMqB_oOX8r5k3_Ps-xo
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) token=c86VHZESwf0:APA91bGqaunz6Vc5t0sYjv1ZJAJOcaNS-0gouQMJ0tDZJVXwyMH77zYVe7jSiefs5B_2KRj2yElKj9EnhVrGhdV7LyFbUstCq2l9Hzgw6hek7WhX6EXRM9SRi4wsmax103e8KdyCVLVf
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) title=Teste Maroto
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) message=Hello World!!!!
+2018-03-23 15:39:08,223 INFO  [stdout] (default task-2) 
+2018-03-23 15:39:08,223 INFO  [stdout] (default task-2) Sending 'POST' request to URL : https://fcm.googleapis.com/fcm/send
+2018-03-23 15:39:08,223 INFO  [stdout] (default task-2) Post parameters : {"to":"c86VHZESwf0:APA91bGqaunz6Vc5t0sYjv1ZJAJOcaNS-0gouQMJ0tDZJVXwyMH77zYVe7jSiefs5B_2KRj2yElKj9EnhVrGhdV7LyFbUstCq2l9Hzgw6hek7WhX6EXRM9SRi4wsmax103e8KdyCVLVf", "notification" : {"title" : "Teste Maroto", "body":"Hello World!!!!"}}
+2018-03-23 15:39:08,223 INFO  [stdout] (default task-2) Response Code : 200
+2018-03-23 15:39:08,226 INFO  [stdout] (default task-2) {"multicast_id":9208742251371476121,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1521830348155290%992d8ca4992d8ca4"}]}
+2018-03-23 15:39:08,227 TRACE [com.notification.core.SendMessage] (default task-2) {"multicast_id":9208742251371476121,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1521830348155290%992d8ca4992d8ca4"}]}
+2018-03-23 15:39:08,227 TRACE [com.notification.core.SendMessage] (default task-2) Response [code=1, message=Success]
+2018-03-23 15:39:08,228 TRACE [com.notification.core.SendMessage] (default task-2) END
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) BEGIN
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) Input data ...
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) serverKey=AAAASgXNggY:APA91bFmiVnIjuWSvNubsa7_kIzIeOchj2cRkMqbbNZNB11we4XE6Jgy-byISVAByoSvovuYQODOFNlpucppSXNxot6-DcbViRvK4BLvawdrKSpC3l_vQZPlPxMqB_oOX8r5k3_Ps-xo
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) token=""
+2018-03-23 15:39:33,356 TRACE [com.notification.core.SendMessage] (default task-3) title=Teste Maroto
+2018-03-23 15:39:33,356 TRACE [com.notification.core.SendMessage] (default task-3) message=Hello World!!!!
+2018-03-23 15:39:33,915 INFO  [stdout] (default task-3) 
+2018-03-23 15:39:33,915 INFO  [stdout] (default task-3) Sending 'POST' request to URL : https://fcm.googleapis.com/fcm/send
+2018-03-23 15:39:33,916 INFO  [stdout] (default task-3) Post parameters : {"to":"""", "notification" : {"title" : "Teste Maroto", "body":"Hello World!!!!"}}
+2018-03-23 15:39:33,916 INFO  [stdout] (default task-3) Response Code : 400
+2018-03-23 15:39:33,916 TRACE [com.notification.core.SendMessage] (default task-3) Response [code=0, message=Server returned HTTP response code: 400 for URL: https://fcm.googleapis.com/fcm/send]
+2018-03-23 15:39:33,916 TRACE [com.notification.core.SendMessage] (default task-3) END
+2018-03-23 15:48:27,320 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/da/31e26c51d674d740b0888d592526386b50c666 is obsolete and will be removed
+2018-03-23 15:48:27,324 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/da/31e26c51d674d740b0888d592526386b50c666/content
+2018-03-23 15:48:27,324 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/c7/aad67679ef5a5df8dedc8f29ad17d3bf31f114 is obsolete and will be removed
+2018-03-23 15:48:27,324 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/c7/aad67679ef5a5df8dedc8f29ad17d3bf31f114/content
+2018-03-23 15:48:27,325 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/24/717aeecb1778358355f22e6bb49eafef364450 is obsolete and will be removed
+2018-03-23 15:48:27,433 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/standalone/data/content/24/717aeecb1778358355f22e6bb49eafef364450/content
+2018-03-23 16:00:40,415 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (Thread-91) Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a726f7: startup date [Fri Mar 23 15:38:35 BRT 2018]; root of context hierarchy
+2018-03-23 16:00:40,416 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-03-23 16:00:40,418 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (Thread-91) Unregistering JMX-exposed beans on shutdown
+2018-03-23 16:00:40,462 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: '/sendNotification' from server 'default-server'
+2018-03-23 16:00:40,464 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 70) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-03-23 16:00:40,466 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 70) Closing Spring root WebApplicationContext
+2018-03-23 16:00:40,498 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-23 16:00:40,515 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-03-23 16:00:40,535 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-23 16:00:40,540 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-03-23 16:00:40,543 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-23 16:00:40,543 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-23 16:00:40,547 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2018-03-23 16:00:40,548 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2018-03-23 16:00:40,551 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-03-23 16:00:40,580 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment notification-1.0.0.war (runtime-name: notification-1.0.0.war) in 153ms
+2018-03-23 16:00:40,593 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 139ms

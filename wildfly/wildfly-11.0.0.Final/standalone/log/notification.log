@@ -1,0 +1,21 @@
+2018-03-23 15:38:35,009 INFO  [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) Starting NotificationApplication on ENGDBNOTE378 with PID 30011 (started by nakamura in /home/nakamura/Program/wildfly/wildfly-11.0.0.Final/bin)
+2018-03-23 15:38:35,010 DEBUG [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-23 15:38:35,011 INFO  [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) No active profile set, falling back to default profiles: default
+2018-03-23 15:38:37,522 INFO  [com.notification.core.NotificationApplication] (ServerService Thread Pool -- 70) Started NotificationApplication in 3.038 seconds (JVM running for 12.262)
+2018-03-23 15:39:07,679 TRACE [com.notification.core.SendMessage] (default task-2) BEGIN
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) Input data ...
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) serverKey=AAAASgXNggY:APA91bFmiVnIjuWSvNubsa7_kIzIeOchj2cRkMqbbNZNB11we4XE6Jgy-byISVAByoSvovuYQODOFNlpucppSXNxot6-DcbViRvK4BLvawdrKSpC3l_vQZPlPxMqB_oOX8r5k3_Ps-xo
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) token=c86VHZESwf0:APA91bGqaunz6Vc5t0sYjv1ZJAJOcaNS-0gouQMJ0tDZJVXwyMH77zYVe7jSiefs5B_2KRj2yElKj9EnhVrGhdV7LyFbUstCq2l9Hzgw6hek7WhX6EXRM9SRi4wsmax103e8KdyCVLVf
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) title=Teste Maroto
+2018-03-23 15:39:07,680 TRACE [com.notification.core.SendMessage] (default task-2) message=Hello World!!!!
+2018-03-23 15:39:08,227 TRACE [com.notification.core.SendMessage] (default task-2) {"multicast_id":9208742251371476121,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1521830348155290%992d8ca4992d8ca4"}]}
+2018-03-23 15:39:08,227 TRACE [com.notification.core.SendMessage] (default task-2) Response [code=1, message=Success]
+2018-03-23 15:39:08,228 TRACE [com.notification.core.SendMessage] (default task-2) END
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) BEGIN
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) Input data ...
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) serverKey=AAAASgXNggY:APA91bFmiVnIjuWSvNubsa7_kIzIeOchj2cRkMqbbNZNB11we4XE6Jgy-byISVAByoSvovuYQODOFNlpucppSXNxot6-DcbViRvK4BLvawdrKSpC3l_vQZPlPxMqB_oOX8r5k3_Ps-xo
+2018-03-23 15:39:33,355 TRACE [com.notification.core.SendMessage] (default task-3) token=""
+2018-03-23 15:39:33,356 TRACE [com.notification.core.SendMessage] (default task-3) title=Teste Maroto
+2018-03-23 15:39:33,356 TRACE [com.notification.core.SendMessage] (default task-3) message=Hello World!!!!
+2018-03-23 15:39:33,916 TRACE [com.notification.core.SendMessage] (default task-3) Response [code=0, message=Server returned HTTP response code: 400 for URL: https://fcm.googleapis.com/fcm/send]
+2018-03-23 15:39:33,916 TRACE [com.notification.core.SendMessage] (default task-3) END
